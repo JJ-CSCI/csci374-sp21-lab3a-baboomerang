@@ -42,7 +42,7 @@ Use above functions and function composition operator, `>>`, to define the follo
 Forward composition operator composes two functions into one.
 *)
 let millimeterToKilometer =
-    fun x->x // write your code here
+    fun x->x
 
 let inchToMeter =
     fun x->x // write your code here
