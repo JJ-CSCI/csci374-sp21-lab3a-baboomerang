@@ -10,7 +10,7 @@ let footToInch x =
     (x : float) * float 12
 
 let yardToFoot v = 
-    0.0
+    (v : float) * float 3
 
 let mileToYard mile =
     0.0 // write your code here
