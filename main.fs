@@ -70,7 +70,7 @@ Use ONLY above functions to define the following two functions. DO NOT CHANGE SI
 *)
 
 let gramToKilogram g =
-    0.0
+    g |> divBy1000    
 
 (*
 Use ONLY above functions and function composition operator, `>>`, to define the following unit transformations
