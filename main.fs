@@ -12,8 +12,8 @@ let footToInch x =
 let yardToFoot v = 
     (v : float) * float 3
 
-let mileToYard mile =
-    0.0 // write your code here
+let mileToYard mile = 
+    (mile : float) * float 1760
 
 (*
 Use ONLY above functions and the forward pipe operator, `|>`,  to define the following unit transformation
@@ -21,7 +21,7 @@ Use ONLY above functions and the forward pipe operator, `|>`,  to define the fol
 Forward pipe operator passes the result of the left side to the function on the right side.
 *)
 let yardToMillimeter y =
-    0.0 // write your code here
+    yardToFoot y |> footToInch |> inchToMillimeter
 
 // Define the curried function `divBy1000` that has the signature `float -> float -> float`
 let divBy1000 =
