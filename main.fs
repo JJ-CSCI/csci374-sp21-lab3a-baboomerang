@@ -31,7 +31,7 @@ let divBy1000 =
 Use ONLY above functions to define the following two functions. DO NOT CHANGE SIGNATURES!
 *)
 let millimeterToMeter n =
-    0.0 // write your code here
+    divBy1000 n
 
 let meterToKilometer =
     fun x->x // write your code here
