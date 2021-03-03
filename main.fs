@@ -4,13 +4,13 @@ module Assignment
 
 // Define following distance unit transformations
 let inchToMillimeter v =
-    0.0 // write your code here
+    (v : float) * 25.4
 
 let footToInch x =
-    0.0 // write your code here
+    (x : float) * float 12
 
-let yardToFoot v =
-    0.0 // write your code here
+let yardToFoot v = 
+    0.0
 
 let mileToYard mile =
     0.0 // write your code here
