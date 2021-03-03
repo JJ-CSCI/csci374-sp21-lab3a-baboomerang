@@ -25,7 +25,7 @@ let yardToMillimeter y =
 
 // Define the curried function `divBy1000` that has the signature `float -> float -> float`
 let divBy1000 =
-    fun x->x // write your code here
+  fun x->(x : float)/float 1000
 
 (*
 Use ONLY above functions to define the following two functions. DO NOT CHANGE SIGNATURES!
@@ -56,13 +56,13 @@ let mileToMeter =
 
 // Define following weight unit transformations
 let ounceToGram v =
-    0.0 // write your code here
+    (v : float) * float 28.349523125
 
 let poundToOunce p =
-    0.0 // write your code here
+    (p : float) * float 16
 
 let shortTonToPound t =
-    0.0 // write your code here
+    (t : float) * float 2000
 
 
 (*
@@ -70,7 +70,7 @@ Use ONLY above functions to define the following two functions. DO NOT CHANGE SI
 *)
 
 let gramToKilogram g =
-    0.0 // write your code here
+    0.0
 
 (*
 Use ONLY above functions and function composition operator, `>>`, to define the following unit transformations
